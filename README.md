@@ -25,3 +25,5 @@ Rule king=(board,r,c)->{
     						return true;
     					};
 ```
+
+
