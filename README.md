@@ -14,7 +14,7 @@ Rule king = (board, r, c) - > {
         for (int j = -1; j <= 1; j++) {
             if (i != 0 && j != 0) {
                 //Solver.inside(int r,int c) checks if (r,c) is a valid cell inside the grid 
-                if (Solver.inside(r + i, c + i) && board[r + i][c + i] == current)
+                if (Solver.inside(r + i, c + j) && board[r + i][c + j] == current)
                     return false;
             }
         }
