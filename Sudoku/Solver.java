@@ -6,7 +6,7 @@ class Solver {
     public Solver() {
         rules = new ArrayList < Rule > ();
     }
-    public boolean sudokuRules(int r, int c) {
+    private boolean sudokuRules(int r, int c) {
         //Check row
         for (int i = 0; i < 9; i++) {
             if (i != c && board[r][i] == board[r][c])
