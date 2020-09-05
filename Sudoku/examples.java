@@ -73,7 +73,7 @@ class Examples
     							{
     								if(i!=0 && j!=0)
     								{
-    									if(Solver.inside(r+i,c+i) && board[r+i][c+i]==current)
+    									if(Solver.inside(r+i,c+j) && board[r+i][c+j]==current)
     										return false;
     								}
     							}
